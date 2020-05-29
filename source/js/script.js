@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", function() {
     this.classList.toggle("active");
   });
 
-  // mobile nav link click
+  // mobile nav links click
   navList.addEventListener("click", function (e) {
     if (e.target.nodeName == "A" && html.classList.contains("show-mobile-nav")) {
       navBtn.click()

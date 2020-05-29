@@ -51,7 +51,7 @@ hexo.extend.tag.register("image", function(args) {
  * bookmark tag
  *
  * Syntax:
- *   {% bookmark { link title? cover? } %}
+ *   {% bookmark { links title? cover? } %}
  */
 hexo.extend.tag.register("bookmark", function(args) {
   let datas = buildDatasObj(args, { title: "", cover: "" });
